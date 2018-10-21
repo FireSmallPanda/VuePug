@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Login from '@/views/Login'
 import Base from '@/views/base/Base'
-import AA from '@/views/base/AA'
 Vue.use(Router)
 
 const routesItems = [
@@ -12,14 +11,14 @@ const routesItems = [
     component: Login
   },
   {
-    path: '/',
+    path: '/base',
     name: 'Base',
     component: Base
   },
   {
-    path: '/aa',
-    name: 'AA',
-    component: AA
+    path: '/',
+    name: 'Login',
+    component: Login
   }
 ]
 
